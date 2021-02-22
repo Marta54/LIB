@@ -4,78 +4,78 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ToggleButton
-        android:id="@+id/tD"
+        android:id="@+id/tSeg"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
-        android:textOff="D"
-        android:textOn="D"
+        android:textOff="Seg"
+        android:textOn="Seg"
         style="@style/toggleButton"
         android:background="@drawable/toggle_bg" />
     <ToggleButton
-        android:id="@+id/tL"
+        android:id="@+id/tTer"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:textOff="L"
-        android:textOn="L"
-        style="@style/toggleButton"
-        android:background="@drawable/toggle_bg" />
-
-    <ToggleButton
-        android:id="@+id/tM"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:textOff="M"
-        android:textOn="M"
+        android:textOff="Ter"
+        android:textOn="Ter"
         style="@style/toggleButton"
         android:background="@drawable/toggle_bg" />
 
     <ToggleButton
-        android:id="@+id/tMi"
+        android:id="@+id/tQua"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:textOff="M"
-        android:textOn="M"
+        android:textOff="Qua"
+        android:textOn="Qua"
         style="@style/toggleButton"
         android:background="@drawable/toggle_bg" />
 
     <ToggleButton
-        android:id="@+id/tJ"
+        android:id="@+id/tQui"
+        style="@style/toggleButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/toggle_bg"
+        android:textOff="Qui"
+        android:textOn="Qui" />
+
+    <ToggleButton
+        android:id="@+id/tSex"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:textOff="J"
-        android:textOn="J"
+        android:textOff="Sex"
+        android:textOn="Sex"
         style="@style/toggleButton"
         android:background="@drawable/toggle_bg" />
 
     <ToggleButton
-        android:id="@+id/tV"
+        android:id="@+id/tSab"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:textOff="V"
-        android:textOn="V"
+        android:textOff="Sab"
+        android:textOn="Sab"
         style="@style/toggleButton"
         android:background="@drawable/toggle_bg" />
 
     <ToggleButton
-        android:id="@+id/tS"
+        android:id="@+id/tDom"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:textOff="S"
-        android:textOn="S"
+        android:textOff="Dom"
+        android:textOn="Dom"
         style="@style/toggleButton"
         android:background="@drawable/toggle_bg" />
 
